@@ -1,0 +1,4 @@
+4a7a4e,127.0.0.1,GET,https://127.0.0.1:8000/,1762349016,,404,request
+2d2ea5,127.0.0.1,GET,https://127.0.0.1:8000/dashboard,1762349023,,200,request
+e32401,127.0.0.1,GET,https://127.0.0.1:8000/favicon.ico,1762349024,aa3f91,404,request
+aa3f91,127.0.0.1,GET,https://127.0.0.1:8000/favicon.ico,1762349024,,404,request
