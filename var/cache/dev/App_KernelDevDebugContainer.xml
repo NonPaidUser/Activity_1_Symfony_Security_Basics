@@ -6683,7 +6683,7 @@
     </service>
     <service id="security.access_map" class="Symfony\Component\Security\Http\AccessMap">
       <call method="add">
-        <argument type="service" id=".security.request_matcher.m6T8ai7"/>
+        <argument type="service" id=".security.request_matcher.WjOc1OS"/>
         <argument type="collection">
           <argument>ROLE_USER</argument>
         </argument>
@@ -7177,12 +7177,12 @@
         <argument key="security.firewall.map.context.main" type="service_closure" id="security.firewall.map.context.main"/>
       </argument>
     </service>
-    <service id=".security.request_matcher.RUsybKY" class="Symfony\Component\HttpFoundation\RequestMatcher\PathRequestMatcher">
-      <argument>^/dasboard</argument>
+    <service id=".security.request_matcher.gb2qQzJ" class="Symfony\Component\HttpFoundation\RequestMatcher\PathRequestMatcher">
+      <argument>^/dashboard</argument>
     </service>
-    <service id=".security.request_matcher.m6T8ai7" class="Symfony\Component\HttpFoundation\ChainRequestMatcher">
+    <service id=".security.request_matcher.WjOc1OS" class="Symfony\Component\HttpFoundation\ChainRequestMatcher">
       <argument type="collection">
-        <argument type="service" id=".security.request_matcher.RUsybKY"/>
+        <argument type="service" id=".security.request_matcher.gb2qQzJ"/>
       </argument>
     </service>
     <service id="security.command.user_password_hash" class="Symfony\Component\PasswordHasher\Command\UserPasswordHashCommand">

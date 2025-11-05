@@ -2,3 +2,6 @@
 2d2ea5,127.0.0.1,GET,https://127.0.0.1:8000/dashboard,1762349023,,200,request
 e32401,127.0.0.1,GET,https://127.0.0.1:8000/favicon.ico,1762349024,aa3f91,404,request
 aa3f91,127.0.0.1,GET,https://127.0.0.1:8000/favicon.ico,1762349024,,404,request
+89b592,127.0.0.1,GET,https://127.0.0.1:8000/dashboard,1762349224,,200,request
+6ef1d7,127.0.0.1,GET,https://127.0.0.1:8000/dashboard,1762349243,9abeae,401,request
+9abeae,127.0.0.1,GET,https://127.0.0.1:8000/dashboard,1762349243,,401,request
