@@ -5,3 +5,7 @@ aa3f91,127.0.0.1,GET,https://127.0.0.1:8000/favicon.ico,1762349024,,404,request
 89b592,127.0.0.1,GET,https://127.0.0.1:8000/dashboard,1762349224,,200,request
 6ef1d7,127.0.0.1,GET,https://127.0.0.1:8000/dashboard,1762349243,9abeae,401,request
 9abeae,127.0.0.1,GET,https://127.0.0.1:8000/dashboard,1762349243,,401,request
+93d225,127.0.0.1,GET,https://127.0.0.1:8000/admin,1762349725,96bc61,404,request
+96bc61,127.0.0.1,GET,https://127.0.0.1:8000/admin,1762349726,,404,request
+15089d,127.0.0.1,GET,https://127.0.0.1:8000/dashboard,1762349730,968cb9,401,request
+968cb9,127.0.0.1,GET,https://127.0.0.1:8000/dashboard,1762349730,,401,request
