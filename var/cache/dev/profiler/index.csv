@@ -9,3 +9,15 @@ aa3f91,127.0.0.1,GET,https://127.0.0.1:8000/favicon.ico,1762349024,,404,request
 96bc61,127.0.0.1,GET,https://127.0.0.1:8000/admin,1762349726,,404,request
 15089d,127.0.0.1,GET,https://127.0.0.1:8000/dashboard,1762349730,968cb9,401,request
 968cb9,127.0.0.1,GET,https://127.0.0.1:8000/dashboard,1762349730,,401,request
+c77e2c,127.0.0.1,GET,https://127.0.0.1:8000/,1762496002,,404,request
+9a6eb7,127.0.0.1,GET,https://127.0.0.1:8000/dashboard,1762496023,a0b894,401,request
+a0b894,127.0.0.1,GET,https://127.0.0.1:8000/dashboard,1762496023,,401,request
+b1a027,127.0.0.1,GET,https://127.0.0.1:8000/dashboard,1762496172,37aa06,401,request
+37aa06,127.0.0.1,GET,https://127.0.0.1:8000/dashboard,1762496172,,401,request
+6af1c7,127.0.0.1,GET,https://127.0.0.1:8000/dashboard,1762496230,,200,request
+0ff33c,127.0.0.1,GET,https://127.0.0.1:8000/favicon.ico,1762496231,02f1ae,404,request
+02f1ae,127.0.0.1,GET,https://127.0.0.1:8000/favicon.ico,1762496231,,404,request
+555c7e,127.0.0.1,GET,https://127.0.0.1:8000/dashboard,1762496290,c47212,401,request
+c47212,127.0.0.1,GET,https://127.0.0.1:8000/dashboard,1762496290,,401,request
+adb722,127.0.0.1,GET,https://127.0.0.1:8000/dashboard,1762497047,0e1912,401,request
+0e1912,127.0.0.1,GET,https://127.0.0.1:8000/dashboard,1762497047,,401,request
