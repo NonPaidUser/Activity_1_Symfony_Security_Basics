@@ -103,9 +103,23 @@ class __TwigTemplate_f046de86da6fe0f7bf90dd3046cad0a3 extends Template
 </style>
 
 <div class=\"example-wrapper\">
+
+    ";
+        // line 13
+        if ((($tmp = $this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("ROLE_ADMIN")) && $tmp instanceof Markup ? (string) $tmp : $tmp)) {
+            // line 14
+            yield "        <p>You are logged in as <strong>Admin</strong>. You have full access.</p>
+    ";
+        } elseif ((($tmp = $this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("ROLE_USER")) && $tmp instanceof Markup ? (string) $tmp : $tmp)) {
+            // line 16
+            yield "        <p>You are logged in as <strong>Regular User</strong>. Limited access granted.</p>
+    ";
+        }
+        // line 18
+        yield "
     <h1>Hello ";
-        // line 12
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape((isset($context["controller_name"]) || array_key_exists("controller_name", $context) ? $context["controller_name"] : (function () { throw new RuntimeError('Variable "controller_name" does not exist.', 12, $this->source); })()), "html", null, true);
+        // line 19
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape((isset($context["controller_name"]) || array_key_exists("controller_name", $context) ? $context["controller_name"] : (function () { throw new RuntimeError('Variable "controller_name" does not exist.', 19, $this->source); })()), "html", null, true);
         yield "! ✅</h1>
 
     This friendly message is coming from:
@@ -145,7 +159,7 @@ class __TwigTemplate_f046de86da6fe0f7bf90dd3046cad0a3 extends Template
      */
     public function getDebugInfo(): array
     {
-        return array (  108 => 12,  100 => 6,  87 => 5,  64 => 3,  41 => 1,);
+        return array (  122 => 19,  119 => 18,  115 => 16,  111 => 14,  109 => 13,  100 => 6,  87 => 5,  64 => 3,  41 => 1,);
     }
 
     public function getSourceContext(): Source
@@ -161,6 +175,13 @@ class __TwigTemplate_f046de86da6fe0f7bf90dd3046cad0a3 extends Template
 </style>
 
 <div class=\"example-wrapper\">
+
+    {% if is_granted('ROLE_ADMIN') %}
+        <p>You are logged in as <strong>Admin</strong>. You have full access.</p>
+    {% elseif is_granted('ROLE_USER') %}
+        <p>You are logged in as <strong>Regular User</strong>. Limited access granted.</p>
+    {% endif %}
+
     <h1>Hello {{ controller_name }}! ✅</h1>
 
     This friendly message is coming from:

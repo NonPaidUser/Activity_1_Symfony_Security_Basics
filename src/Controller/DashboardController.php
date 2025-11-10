@@ -9,10 +9,20 @@ use Symfony\Component\Security\Http\Attribute\IsGranted;
 
 final class DashboardController extends AbstractController
 {
-    #[IsGranted('ROLE_USER')]
+    // #[IsGranted('ROLE_USER')]
+    // #[Route('/dashboard', name: 'app_dashboard')]
+    // public function index(): Response
+    // {
+    //     return new Response("Welcome to the Dashboard! (Protected Area)");
+    // }
+
     #[Route('/dashboard', name: 'app_dashboard')]
     public function index(): Response
     {
-        return new Response("Welcome to the Dashboard! (Protected Area)");
+        // You can pass data to Twig like this
+        return $this->render('dashboard/index.html.twig', [
+            'controller_name' => 'SecuirityBasics1 DashboardController',
+        ]);
     }
+
 }
