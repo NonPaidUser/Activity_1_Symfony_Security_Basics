@@ -191,6 +191,8 @@ class __TwigTemplate_f046de86da6fe0f7bf90dd3046cad0a3 extends Template
     </ul>
 </div>
 {% endblock %}
-", "dashboard/index.html.twig", "C:\\Jovan Components\\JOVAN PROJECTS\\Symfony_Projects\\SecurityBasics1\\templates\\dashboard\\index.html.twig");
+
+{# Trial 1 for branch main #}
+{# Trial 2 for branch main2 #}", "dashboard/index.html.twig", "C:\\Jovan Components\\JOVAN PROJECTS\\Symfony_Projects\\SecurityBasics1\\templates\\dashboard\\index.html.twig");
     }
 }
