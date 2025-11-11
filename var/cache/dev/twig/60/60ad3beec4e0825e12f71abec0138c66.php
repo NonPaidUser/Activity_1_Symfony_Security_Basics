@@ -117,17 +117,9 @@ class __TwigTemplate_f046de86da6fe0f7bf90dd3046cad0a3 extends Template
         }
         // line 18
         yield "
-    <h1>Hello ";
-        // line 19
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape((isset($context["controller_name"]) || array_key_exists("controller_name", $context) ? $context["controller_name"] : (function () { throw new RuntimeError('Variable "controller_name" does not exist.', 19, $this->source); })()), "html", null, true);
-        yield "! ✅</h1>
-
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code>C:/Jovan Components/JOVAN PROJECTS/Symfony_Projects/SecurityBasics1/src/Controller/DashboardController.php</code></li>
-        <li>Your template at <code>C:/Jovan Components/JOVAN PROJECTS/Symfony_Projects/SecurityBasics1/templates/dashboard/index.html.twig</code></li>
-    </ul>
-</div>
+    ";
+        // line 26
+        yield "</div>
 ";
         
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
@@ -159,7 +151,7 @@ class __TwigTemplate_f046de86da6fe0f7bf90dd3046cad0a3 extends Template
      */
     public function getDebugInfo(): array
     {
-        return array (  122 => 19,  119 => 18,  115 => 16,  111 => 14,  109 => 13,  100 => 6,  87 => 5,  64 => 3,  41 => 1,);
+        return array (  122 => 26,  119 => 18,  115 => 16,  111 => 14,  109 => 13,  100 => 6,  87 => 5,  64 => 3,  41 => 1,);
     }
 
     public function getSourceContext(): Source
@@ -182,13 +174,13 @@ class __TwigTemplate_f046de86da6fe0f7bf90dd3046cad0a3 extends Template
         <p>You are logged in as <strong>Regular User</strong>. Limited access granted.</p>
     {% endif %}
 
-    <h1>Hello {{ controller_name }}! ✅</h1>
+    {# <h1>Hello {{ controller_name }}! ✅</h1>
 
     This friendly message is coming from:
     <ul>
         <li>Your controller at <code>C:/Jovan Components/JOVAN PROJECTS/Symfony_Projects/SecurityBasics1/src/Controller/DashboardController.php</code></li>
         <li>Your template at <code>C:/Jovan Components/JOVAN PROJECTS/Symfony_Projects/SecurityBasics1/templates/dashboard/index.html.twig</code></li>
-    </ul>
+    </ul> #}
 </div>
 {% endblock %}
 
